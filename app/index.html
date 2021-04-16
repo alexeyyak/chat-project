@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Client</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="content">
+      <!--navigation-->
+      <div class="navigation">
+        <!--navigation__left-->
+        <div class="navigation__left">
+          <div class="navigation-one__icons">
+            <div class="navigation-one__icons-section">
+              <a href="" class="navigation-one__icons-link">
+                <img class="navigation-one__icons-link-pic" src="./images/navigation1/1.png" alt="">
+              </a>
+              <a href="" class="navigation-one__icons-link">
+                <img class="navigation-one__icons-link-pic" src="./images/navigation1/2.png" alt="">
+              </a>
+              <a href="" class="navigation-one__icons-link">
+                <img class="navigation-one__icons-link-pic" src="./images/navigation1/3.png" alt="">
+              </a>
+              <a href="" class="navigation-one__icons-link">
+                <img class="navigation-one__icons-link-pic" src="./images/navigation1/4.png" alt="">
+              </a>
+              <a href="" class="navigation-one__icons-link">
+                <img class="navigation-one__icons-link-pic" src="./images/navigation1/5.png" alt="">
+              </a>
+              <a href="" class="navigation-one__icons-link">
+                <img class="navigation-one__icons-link-pic" src="./images/navigation1/6.png" alt="">
+              </a>
+              <a href="" class="navigation-one__icons-link">
+                <img class="navigation-one__icons-link-pic" src="./images/navigation1/7.png" alt="">
+              </a>
+            </div>
+            <div class="navigation__left-btn-block">
+              <a href="#" class="navigation__left-btn"></a>
+            </div>
+          </div>
+        </div>
+        <!--navigation__right-->
+        <div class="navigation__right">
+          <div class="navigation__right-sidebar">
+            <div class="navigation__right-sidebar__nomad-list">
+              <div class="navigation__right-sidebar-title_btn">
+                <a class="navigation__right-sidebar__nomad-list-title">Nomad List</a>
+                <img class="navigation__right-sidebar__nomad-list-title-img" src="../images/navigation2/mark.svg"
+                  alt="">
+                <ul class="navigation__right-sidebar__nomad-list-drop">
+                  <li class="navigation__right-sidebar__nomad-list-drop-item">
+                    <a href="" class="navigation__right-sidebar__nomad-list-drop-item-link">gerenal</a>
+                  </li>
+                  <li class="navigation__right-sidebar__nomad-list-drop-item">
+                    <a href="" class="navigation__right-sidebar__nomad-list-drop-item-link">general</a>
+                  </li>
+                  <li class="navigation__right-sidebar__nomad-list-drop-item">
+                    <a href="" class="navigation__right-sidebar__nomad-list-drop-item-link">genetal</a>
+                  </li>
+                  <li class="navigation__right-sidebar__nomad-list-drop-item">
+                    <a href="" class="navigation__right-sidebar__nomad-list-drop-item-link">genetal</a>
+                  </li>
+                </ul>
+              </div>
+              <a href="" class="navigation__right-sidebar__nomad-list__link">
+                <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.6" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.5369 5.84992L12.4531 6.48092C12.5139 6.81222 12.5538 7.15072 12.5538 7.50011C12.5538 7.84934 12.5139 8.18784 12.4531 8.51916L13.5369 9.15012C13.9796 9.40783 14.1312 9.97861 13.8757 10.425L12.9501 12.0417C12.6945 12.488 12.1284 12.641 11.6857 12.3833L10.5907 11.7459C10.0792 12.1849 9.49763 12.5439 8.85126 12.7747V13.5666C8.85126 14.0821 8.43686 14.5 7.92558 14.5H6.07434C5.56322 14.5 5.14882 14.0821 5.14882 13.5666V12.7747C4.50245 12.5439 3.92091 12.1849 3.4093 11.7459L2.3144 12.3833C1.87163 12.641 1.30554 12.488 1.04994 12.0417L0.124336 10.425C-0.131248 9.97861 0.020448 9.40783 0.463136 9.15012L1.54694 8.51916C1.48619 8.18784 1.4463 7.84934 1.4463 7.50011C1.4463 7.15072 1.48619 6.81222 1.54694 6.48092L0.463136 5.84992C0.020448 5.59223 -0.131248 5.02132 0.124336 4.57504L1.04994 2.95842C1.30554 2.51196 1.87163 2.35894 2.3144 2.61677L3.4093 3.25421C3.92091 2.81499 4.50245 2.45618 5.14882 2.22547V1.43341C5.14882 0.917987 5.56322 0.500092 6.07434 0.500092H7.92558C8.43686 0.500092 8.85126 0.917987 8.85126 1.43341V2.22547C9.49763 2.45618 10.0792 2.81499 10.5907 3.25421L11.6857 2.61677C12.1284 2.35894 12.6945 2.51196 12.9501 2.95842L13.8757 4.57504C14.1312 5.02132 13.9796 5.59223 13.5369 5.84992ZM12.8427 4.63746L12.3799 3.82914C12.252 3.60606 11.969 3.52944 11.7477 3.65837L10.4618 4.40701C9.80906 3.66462 8.92702 3.13209 7.92558 2.9271V1.90004C7.92558 1.6423 7.71838 1.43341 7.4628 1.43341H6.5372C6.28152 1.43341 6.07434 1.6423 6.07434 1.90004V2.9271C5.07298 3.13209 4.19094 3.66462 3.5383 4.40701L2.2524 3.65837C2.03101 3.52944 1.74797 3.60606 1.62013 3.82914L1.15741 4.63746C1.02957 4.86068 1.10542 5.1462 1.32672 5.27499L2.61781 6.02659C2.46402 6.49078 2.37189 6.98356 2.37189 7.50011C2.37189 8.01652 2.46402 8.50924 2.61781 8.97354L1.32672 9.72507C1.10542 9.85402 1.02957 10.1394 1.15741 10.3626L1.62013 11.1708C1.74797 11.394 2.03101 11.4705 2.2524 11.3416L3.53822 10.5931C4.19094 11.3355 5.07298 11.868 6.07434 12.073V13.1001C6.07434 13.3578 6.28152 13.5666 6.5372 13.5666H7.4628C7.71838 13.5666 7.92558 13.3578 7.92558 13.1001V12.073C8.92702 11.868 9.80906 11.3355 10.4618 10.5931L11.7477 11.3416C11.969 11.4705 12.252 11.394 12.3799 11.1708L12.8427 10.3626C12.9705 10.1394 12.8946 9.85402 12.6733 9.72507L11.3822 8.97354C11.5361 8.50924 11.6281 8.01652 11.6281 7.50011C11.6281 6.98356 11.5361 6.49078 11.3822 6.02659L12.6733 5.27499C12.8946 5.1462 12.9705 4.86068 12.8427 4.63746ZM7 9.83328C5.72194 9.83328 4.68595 8.78867 4.68595 7.50011C4.68595 6.21127 5.72194 5.16666 7 5.16666C8.27798 5.16666 9.31405 6.21127 9.31405 7.50011C9.31405 8.78867 8.27798 9.83328 7 9.83328ZM7 6.10003C6.23322 6.10003 5.61162 6.72683 5.61162 7.50011C5.61162 8.2732 6.23322 8.89991 7 8.89991C7.76678 8.89991 8.38838 8.2732 8.38838 7.50011C8.38838 6.72683 7.76678 6.10003 7 6.10003Z"
+                    fill="white" />
+                </svg>
+              </a>
+              <div class="navigation__right-sidebar__nomad-list-alltreades">
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M8 14.4999C7.48839 14.4999 6.98962 14.4537 6.50472 14.3734L3.00005 16.5001V12.9596C1.17274 11.6767 -1.00136e-05 9.70951 -1.00136e-05 7.49994C-1.00136e-05 3.63404 3.58176 0.499972 8 0.499972C12.4183 0.499972 16 3.63404 16 7.49994C16 11.3661 12.4183 14.4999 8 14.4999ZM8 1.50014C4.13401 1.50014 0.999998 4.18641 0.999998 7.49994C0.999998 9.53322 2.18285 11.3268 3.98764 12.4121L3.9561 14.7313L6.30987 13.3165C6.85203 13.432 7.41612 13.5 8 13.5C11.866 13.5 15.0001 10.8138 15.0001 7.49994C15.0001 4.18641 11.866 1.50014 8 1.50014ZM11.5 7.00002H4.50001C4.22387 7.00002 3.99999 6.77605 3.99999 6.50006C3.99999 6.22379 4.22387 6 4.50001 6H11.5C11.7761 6 12 6.22379 12 6.50006C12 6.77605 11.7761 7.00002 11.5 7.00002ZM5.50002 9.00002H10.5C10.7762 9.00002 11.0001 9.22385 11.0001 9.49999C11.0001 9.77627 10.7762 10.0001 10.5 10.0001H5.50002C5.22382 10.0001 5.00001 9.77627 5.00001 9.49999C5.00001 9.22385 5.22382 9.00002 5.50002 9.00002Z"
+                    fill="white" />
+                </svg>
+                <h2 class="navigation__right-sidebar__nomad-list-alltreads-title">All treads</h2>
+              </div>
+            </div>
+            <!--navigation__right-sidebar-->
+            <div class="navigation__right-sidebar-block-overflow">
+              <div class="navigation__right-sidebar-block">
+                <div class="navigation__right-channels">
+                  <!--navigation__right-channels-->
+                  <div class="navigation__right-channels-main">
+                    <h5 class="navigation__right-channel">channels</h5>
+                    <h5 class="navigation__right-number">11</h5>
+                  </div>
+                  <div class="navigation__right-nav">
+                    <ul class="navigation__right-items">
+                      <li class="navigation__right-item">
+                        <a href="#" class="navigation__right-nav__link"># general</a>
+                      </li>
+                      <li class="navigation__right-item">
+                        <a href="#" class="navigation__right-nav__link"># support</a>
+                      </li>
+                      <li class="navigation__right-item">
+                        <a href="#" class="navigation__right-nav__link"># marketing</a>
+                      </li>
+                      <li class="navigation__right-item">
+                        <a href="#" class="navigation__right-nav__link"># thailand</a>
+                      </li>
+                      <li class="navigation__right-item">
+                        <a href="#" class="navigation__right-nav__link"># bali</a>
+                      </li>
+                      <li class="navigation__right-item">
+                        <a href="#" class="navigation__right-nav__link"># poland</a>
+                      </li>
+                      <li class="navigation__right-item">
+                        <a href="#" class="navigation__right-nav__link"># australia</a>
+                      </li>
+                      <li class="navigation__right-item">
+                        <a href="#" class="navigation__right-nav__link"># jobs</a>
+                      </li>
+                      <li class="navigation__right-item">
+                        <a href="#" class="navigation__right-nav__link"># startups</a>
+                      </li>
+                      <li class="navigation__right-item">
+                        <a href="#" class="navigation__right-nav__link"># italy</a>
+                      </li>
+                      <li class="navigation__right-item">
+                        <a href="#" class="navigation__right-nav__link"># freelance</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!--navigation__right-friends-->
+                <div class="navigation__right-friends">
+                  <div class="navigation__right-channels-main">
+                    <h5 class="navigation__right-channel">friends</h5>
+                    <h5 class="navigation__right-number">82</h5>
+                  </div>
+                  <div class="navigation__right-friends-peoples">
+                    <ul class="navigation__right-friends-peoples-items">
+                      <li class="navigation__right-friends-peoples-item navigation__right-friends-peoples-item-green">
+                        <img src="../images/navigation2/people1.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Orlando Diggs</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item navigation__right-friends-peoples-item-green">
+                        <img src="../images/navigation2/people2.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Carmen Velasco</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people3.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Marie Jensen</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people4.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Alex Lee</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people5.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Leo Gill</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people6.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Britney Cooper</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people6.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Britney Cooper</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people6.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Britney Cooper</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people6.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Britney Cooper</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people6.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Britney Cooper</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people6.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Britney Cooper</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people6.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Britney Cooper</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people6.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Britney Cooper</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people6.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Britney Cooper</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people6.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Britney Cooper</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people6.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Britney Cooper</h5>
+                      </li>
+                      <li class="navigation__right-friends-peoples-item">
+                        <img src="../images/navigation2/people6.png" alt=""
+                          class="navigation__right-friends-peoples__img">
+                        <h5 class="navigation__right-friends-peoples__name">Britney Cooper</h5>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </dvi>
+          </div>
+        </div>
+      </div>
+      <!--chat-->
+      <div class="chat">
+        <!--chat-header-->
+        <div class="chat-header">
+          <div class="center-header-right-icon-block">
+            <div class="center-header-left">
+              <h3 class="center-header-left-title">#general</h3>
+              <img src="../images/main/star.png" alt="" class="center-header-left-img">
+            </div>
+            <div class="center-header-right">
+              <div class="center-header-right-number">
+                <img src="../images/main/people.svg" alt="" class="center-header-left-img">
+                <p class="center-header-left-text">1,093</p>
+              </div>
+              <div class="center-header-right-search">
+                <input class="search" type="text" placeholder="Search...">
+                <a href="#" class="search__link">
+                  <i class="fas fa-search"></i>
+                </a>
+              </div>
+              <div class="center-header-right-bell">
+                <a href="#" class="center-header-right-bell__link">
+                  <i class="far fa-bell"></i>
+                </a>
+              </div>
+              <div class="center-header-right-icon">
+                <a href="#" class="center-header-right-icon">
+                  <img class="center-header-right-icon__pic" src="../images/main/Icon.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--chat-main-->
+        <div class="chat-main-overflow">
+          <div class="chat-main">
+            <!--block-->
+            <div class="chat-block">
+              <img class="chat-content__img" src="./images/main/people1.png" alt="">
+              <div class="chat-content__chat">
+                <div class="chat-content__info">
+                  <div class="chat-content__name">Jeshua Stout</div>
+                  <div class="chat-content__data">6:38 PM</div>
+                </div>
+                <p class="chat-content__text">
+                  <span> @pierrhack I did for 6 days in Iceland </span>
+                </p>
+              </div>
+            </div>
+            <!--timeblock-->
+            <div class="datatime-block">
+              <time class="datatime" datetime="">Monday, October 22nd</time>
+            </div>
+            <!--timeblock-->
+            <!--block-->
+            <div class="chat-block">
+              <img class="chat-content__img" src="./images/main/people2.png" alt="">
+              <div class="chat-content__chat">
+                <div class="chat-content__info">
+                  <div class="chat-content__name">Harold Adams</div>
+                  <div class="chat-content__data">5:02 PM</div>
+                </div>
+                <p class="chat-content__text">
+                  Which country to visit next? This is a photo with my friends - celebrating in Bali
+                  <br>
+                  <a href="#" class="center__content-href__img">
+                    <span>my-top-places.jpg</span>
+                  </a>
+                <div class="center-content__photo">
+                  <img src="./images/main/my-top-places.png" alt="">
+                  <img class="center-content__photo-smile" src="./images/main/smile.png" alt="">
+                  <p class="center-content__photo-number">3</p>
+                </div>
+                </p>
+              </div>
+            </div>
+            <!--timeblock-->
+            <div class="datatime-block">
+              <time class="datatime" datetime="">Yesterday</time>
+            </div>
+            <!--timeblock-->
+            <!--block-->
+            <div class="chat-block">
+              <img class="chat-content__img" src="./images/main/people3.png" alt="">
+              <div class="chat-content__chat">
+                <div class="chat-content__info">
+                  <div class="chat-content__name">Aada Laine</div>
+                  <div class="chat-content__data">11:54 AM</div>
+                </div>
+                <p class="chat-content__text">
+                  <span> @har_adams wow it’s amazing, I want to buy a van and travelling next year</span>
+                </p>
+              </div>
+            </div>
+            <!--timeblock-->
+            <div class="datatime-block">
+              <time class="datatime" datetime="">Today</time>
+            </div>
+            <!--timeblock-->
+            <div class="chat-block">
+              <img class="chat-content__img" src="./images/main/people4.png" alt="">
+              <div class="chat-content__chat">
+                <div class="chat-content__info">
+                  <div class="chat-content__name">Nala Hester</div>
+                  <div class="chat-content__data">11:54 AM</div>
+                </div>
+                <p class="chat-content__text">
+                  Working from a van in Australia isn’t feasible if you need internet. It may have improved over the
+                  last
+                  years but I spent some time in a camper van around Tasmania and internet was a real problem (and
+                  Tasmania is tiny compared to the rest of the country).
+                </p>
+              </div>
+            </div>
+            <div class="chat-block">
+              <img class="chat-content__img" src="./images/main/people5.png" alt="">
+              <div class="chat-content__chat">
+                <div class="chat-content__info">
+                  <div class="chat-content__name">Ramon Bateman</div>
+                  <div class="chat-content__data">11:59 AM</div>
+                </div>
+                <p class="chat-content__text">
+                  <span>@aa_da</span> What's the reason for the van? Saving money or just like to get outside? If you've
+                  got a stable
+                  source of income you could always do some short term Airbnbs + buy a truck/topper, build a platform in
+                  the back. That way you can always convert it back to a truck and sleep in an apartment if you want.
+                </p>
+              </div>
+            </div>
+            <!--block-->
+            <div class="chat-block">
+              <img class="chat-content__img" src="./images/main/people1.png" alt="">
+              <div class="chat-content__chat">
+                <div class="chat-content__info">
+                  <div class="chat-content__name">Jeshua Stout</div>
+                  <div class="chat-content__data">6:38 PM</div>
+                </div>
+                <p class="chat-content__text">
+                  <span> @pierrhack I did for 6 days in Iceland </span>
+                </p>
+              </div>
+            </div>
+            <!--timeblock-->
+            <div class="datatime-block">
+              <time class="datatime" datetime="">Monday, October 22nd</time>
+            </div>
+            <!--timeblock-->
+            <!--block-->
+            <div class="chat-block">
+              <img class="chat-content__img" src="./images/main/people2.png" alt="">
+              <div class="chat-content__chat">
+                <div class="chat-content__info">
+                  <div class="chat-content__name">Harold Adams</div>
+                  <div class="chat-content__data">5:02 PM</div>
+                </div>
+                <p class="chat-content__text">
+                  Which country to visit next? This is a photo with my friends - celebrating in Bali
+                  <br>
+                  <a href="#" class="center__content-href__img">
+                    <span>my-top-places.jpg</span>
+                  </a>
+                <div class="center-content__photo">
+                  <img src="./images/main/my-top-places.png" alt="">
+                  <img class="center-content__photo-smile" src="./images/main/smile.png" alt="">
+                  <p class="center-content__photo-number">3</p>
+                </div>
+                </p>
+              </div>
+            </div>
+            <!--timeblock-->
+            <div class="datatime-block">
+              <time class="datatime" datetime="">Yesterday</time>
+            </div>
+            <!--timeblock-->
+            <!--block-->
+            <div class="chat-block">
+              <img class="chat-content__img" src="./images/main/people3.png" alt="">
+              <div class="chat-content__chat">
+                <div class="chat-content__info">
+                  <div class="chat-content__name">Aada Laine</div>
+                  <div class="chat-content__data">11:54 AM</div>
+                </div>
+                <p class="chat-content__text">
+                  <span> @har_adams wow it’s amazing, I want to buy a van and travelling next year</span>
+                </p>
+              </div>
+            </div>
+            <!--timeblock-->
+            <div class="datatime-block">
+              <time class="datatime" datetime="">Today</time>
+            </div>
+            <!--timeblock-->
+            <div class="chat-block">
+              <img class="chat-content__img" src="./images/main/people4.png" alt="">
+              <div class="chat-content__chat">
+                <div class="chat-content__info">
+                  <div class="chat-content__name">Nala Hester</div>
+                  <div class="chat-content__data">11:54 AM</div>
+                </div>
+                <p class="chat-content__text">
+                  Working from a van in Australia isn’t feasible if you need internet. It may have improved over the
+                  last
+                  years but I spent some time in a camper van around Tasmania and internet was a real problem (and
+                  Tasmania is tiny compared to the rest of the country).
+                </p>
+              </div>
+            </div>
+            <div class="chat-block">
+              <img class="chat-content__img" src="./images/main/people5.png" alt="">
+              <div class="chat-content__chat">
+                <div class="chat-content__info">
+                  <div class="chat-content__name">Ramon Bateman</div>
+                  <div class="chat-content__data">11:59 AM</div>
+                </div>
+                <p class="chat-content__text">
+                  <span>@aa_da</span> What's the reason for the van? Saving money or just like to get outside? If you've
+                  got a stable
+                  source of income you could always do some short term Airbnbs + buy a truck/topper, build a platform in
+                  the back. That way you can always convert it back to a truck and sleep in an apartment if you want.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--chat-footer-->
+        <div class="chat-footer-border">
+          <div class="chat-footer">
+            <div class="chat-footer-left">
+              <img class="chat-footer__img" src="../images/main/messagebtn1.png" alt="">
+              <img class="chat-footer__img" src="../images/main/messagebtn2.png" alt="">
+              <textarea class="chat-footer__textarea" name="" placeholder="Message in #general"></textarea>
+            </div>
+            <i class="far fa-smile"></i>
+          </div>
+
+        </div>
+      </div>
+      <!--profile-->
+      <div class="profile">
+        <div class="profile-photo">
+          <img src="./images/profile/profile-photo.png" alt="" class="profile-photo__img">
+        </div>
+        <!--profile-information-->
+        <div class="profile-information">
+          <div class="profile-wrapper">
+            <div class="profile-name">
+              <h3 class="profile-name__title">Amilia Luna</h3>
+              <h4 class="profile-name__post">UI Designer</h3>
+            </div>
+            <div class="profile-icons">
+              <a href="" class="profile-icons__link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="profile-icons__link">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" class="profile-icons__link">
+                <i class="fab fa-instagram-square"></i>
+              </a>
+              <a href="" class="profile-icons__link">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div class="profile-message">
+              <button class="profile-message__btn">Message <i class="fas fa-caret-down"></i></button>
+            </div>
+            <div class="profile-info">
+              <div class="profile-info__item">
+                <div class="profile-info__item-user">Username</div>
+                <div class="profile-info__item-desc">@amilia_lu</div>
+              </div>
+              <div class="profile-info__item">
+                <div class="profile-info__item-user">Email</div>
+                <div class="profile-info__item-desc">a-luna@gmail.com</div>
+              </div>
+              <div class="profile-info__item">
+                <div class="profile-info__item-user">Skype</div>
+                <div class="profile-info__item-desc">amiluna</div>
+              </div>
+              <div class="profile-info__item">
+                <div class="profile-info__item-user">Timezone</div>
+                <div class="profile-info__item-desc">2:21 PM Local time</div>
+              </div>
+            </div>
+            <!--profile-sidebar-->
+            <div class="profile-sidebar">
+              <ul class="profile-sidebar-block">
+                <li class="profile-sidebar-block__item">
+                  <img class="profile-sidebar__img" src="./images/profile/triangle.png" alt="">
+                  <ul class="profile-sidebar-items">
+                    <li class="profile-sidebar-item">
+                      <a class="profile-sidebar-item__link" href="#">general</a>
+                    </li>
+                    <li class="profile-sidebar-item">
+                      <a class="profile-sidebar-item__link" href="#">general</a>
+                    </li>
+                    <li class="profile-sidebar-item">
+                      <a class="profile-sidebar-item__link" href="#">general</a>
+                    </li>
+                    <li class="profile-sidebar-item">
+                      <a class="profile-sidebar-item__link" href="#">general</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/03ac6575c7.js" crossorigin="anonymous"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
